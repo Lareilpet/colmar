@@ -3,6 +3,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  width: 960px;
+}
+
 header {
   height: 64px;
   display: flex;
@@ -29,4 +33,42 @@ nav {
 
 nav span {
   padding-left: 16px;
+}
+
+.banner {
+  display: inline-flex;
+  padding: 32px 24px;
+  background-color: skyblue;
+  width: 960px;
+  align-items: center;
+}
+
+.banner img {
+  width: 552px;
+  height: auto;
+}
+
+.welcome {
+ width: 336px;
+ padding-left: 24px;
+}
+
+.welcome h1 {
+  font-size: 2.25rem;
+  text-align: left;
+}
+
+.welcome p {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.welcome h4 {
+  height: 32px;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 100%;
+  color: white;
+  background-color: gray;
+  padding-top: 8px;
 }
