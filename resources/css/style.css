@@ -72,3 +72,76 @@ nav span {
   background-color: gray;
   padding-top: 8px;
 }
+
+.introduction {
+  display: flex;
+  background-color: white;
+  width: 960px;
+  height: 570px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.introduction p {
+  font-size: 1rem;
+}
+
+.practice {
+  padding: 32px 24px;
+  text-align: left;
+  width: 600px;
+}
+
+.practice img {
+  width: 552px;
+}
+
+.practice h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.practice p {
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+
+.practice h4 {
+  font-size: 0.75rem;
+}
+
+.info {
+  width: 360px;
+  height: 570px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 190px;
+  justify-content: space-around;
+}
+
+.information img {
+  width: 35%;
+}
+
+.information .hours {
+  width: 65%;
+  padding-left: 8px;
+}
+
+.hours h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.hours h4 {
+  color: blue;
+  font-size: 1rem;
+}
+
+.guest .information{
+  background-color: lightgray;
+}
