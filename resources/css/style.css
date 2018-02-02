@@ -145,3 +145,57 @@ nav span {
 .guest .information{
   background-color: lightgray;
 }
+
+.start-learning {
+  width: 100%;
+  background-color: skyblue;
+}
+
+.start-learning h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 32px;
+}
+
+.majors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 32px 72px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 320px;
+  background-color: white;
+  margin-bottom: 32px;
+}
+
+.fields img {
+  width: 100%;
+  height: auto;
+}
+
+.fields h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.fields p {
+  font-size: 1rem;
+  padding-left: 16px;
+}
+
+.fields h4 {
+  padding-left: 16px;
+  font-size: 1rem;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
