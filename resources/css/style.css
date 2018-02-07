@@ -270,6 +270,9 @@ body {
 }
 }
 
+   /*START LEARNING SECTION*/
+
+
 .start-learning {
   width: 960px;;
   background-color: skyblue;
@@ -342,26 +345,23 @@ body {
   }
 
   .majors {
+    padding-left: 0px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: space-around;
     background-color: white;
     width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   .fields {
     display: flex;
+    justify-content: center;
     width: 440px;
     height: 54px;
     background-color: skyblue;
-    background-position: center;
+    background-position:left;
     background-repeat: no-repeat;
     margin-bottom: 8px;
-    padding-left: 16px;
     padding-top: 16px;
-    padding-bottom: 24px;
   }
 
   .fields img {
@@ -371,7 +371,9 @@ body {
   .fields h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    align-self:flex-start;
+    padding-left: 16px;
+    text-align: left;
+    padding-bottom: 1rem;
   }
 
   .fields p {
@@ -383,6 +385,8 @@ body {
   }
 }
 
+
+   /*THESIS SECTION*/
 
 .thesis {
   width: 100%
@@ -463,7 +467,6 @@ body {
     width: 480px;
   }
 
-
   .thesis h1 {
     font-size: 2rem;
     text-align: center;
@@ -472,23 +475,14 @@ body {
   }
 
   .contents .demos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
-    height: 550px;
-    padding-top: 32px;
-  }
-
-  .demos {
-    padding-top: 16px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 24px;
   }
 
   .demos video {
     width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
   }
 
   .contents h3 {
@@ -510,6 +504,9 @@ body {
 
   }
 
+
+   /*FOOTER SECTION*/
+
 footer {
   width: 100%;
   display: flex;
@@ -526,12 +523,17 @@ footer span {
 
 @media only screen and (max-width: 480px) {
 
-  footer h5{
+  footer {
     width: 480px;
+    height: 60px;
     background-color: white;
+}
+
+  footer h5{
     font-size: 1rem;
     text-align: left;
-    padding: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
   }
 
   footer span {
