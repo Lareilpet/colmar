@@ -142,7 +142,11 @@ body {
     margin-bottom: 32px;
 
 }
+
 }
+
+
+   /*INTRODUCTION SECTION*/
 
 .introduction {
   display: flex;
@@ -223,51 +227,62 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .introduction {
+    width: 480px;
+    height: 900px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   .practice {
     display: none;
   }
 
   .info {
-    height: 2000px;
     width: 480px;
-    padding-top: 16px;
   }
 
   .information {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    width: 480px;
+    width: 100%;
     height: 300px;
-    padding-left: 16px;
-    padding-right: 16px;
-    align-items:flex-start;
-    justify-content: center;
   }
 
-  .information .desktiop img {
+ .desktiop img {
    display: none;
   }
 
-  .mobile-image img {
-    width: 480px;
+  .info .mobile-image img {
+   max-width: 100%;
+   height: auto;
 }
 
+.info .hours {
+  width: 100%;
+
+}
 
   .hours h3 {
     font-size: 1.25rem;
     font-weight: bold;
+    text-align: left;
   }
 
   .hours h4 {
     color: blue;
     font-size: 1rem;
+    text-align: left;
   }
 
-  .info .information:nth-child(3n+0) {
-    background-color: white;
+  .hours p {
+    font-size: 1rem;
+    text-align: left;
+    width: 90%;
+  }
 
-}
 }
 
    /*START LEARNING SECTION*/
