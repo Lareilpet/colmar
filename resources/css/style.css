@@ -236,9 +236,9 @@ body {
 
   .introduction {
     width: 480px;
-    height: 900px;
+    height: 970px;
     padding-top: 16px;
-    padding-left: 16px;
+    padding-left: 8px;
     padding-right: 16px;
   }
 
@@ -257,6 +257,8 @@ body {
     height: 300px;
     padding-top: 16px;
     justify-content: space-around;
+    background-color: lightgray;
+    margin-bottom: 8px;
   }
 
 .information .desktiop img {
@@ -290,10 +292,6 @@ body {
     font-size: 1rem;
     text-align: left;
     width: 90%;
-  }
-
-  .info .information:nth-child(3n+0) {
-    background-color: white;
   }
 
 }
